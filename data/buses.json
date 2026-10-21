@@ -1,0 +1,68 @@
+{
+  "start_label": "22:00",
+  "slot_minutes": 30,
+  "transformer_limit_kw": 90,
+  "available_chargers": 4,
+  "prices_per_kwh": [
+    8.4,
+    8.1,
+    7.9,
+    7.7,
+    7.5,
+    7.2,
+    6.9,
+    6.7,
+    6.8,
+    7.0,
+    7.4,
+    8.2,
+    9.1,
+    9.8,
+    9.4,
+    8.8
+  ],
+  "buses": [
+    {
+      "bus_id": "BUS-01",
+      "required_kwh": 54,
+      "initial_kwh": 12,
+      "charger_kw": 30,
+      "departure_slot": 16
+    },
+    {
+      "bus_id": "BUS-02",
+      "required_kwh": 48,
+      "initial_kwh": 6,
+      "charger_kw": 30,
+      "departure_slot": 14
+    },
+    {
+      "bus_id": "BUS-03",
+      "required_kwh": 42,
+      "initial_kwh": 10,
+      "charger_kw": 30,
+      "departure_slot": 13
+    },
+    {
+      "bus_id": "BUS-04",
+      "required_kwh": 36,
+      "initial_kwh": 6,
+      "charger_kw": 30,
+      "departure_slot": 12
+    },
+    {
+      "bus_id": "BUS-05",
+      "required_kwh": 60,
+      "initial_kwh": 18,
+      "charger_kw": 30,
+      "departure_slot": 16
+    },
+    {
+      "bus_id": "BUS-06",
+      "required_kwh": 45,
+      "initial_kwh": 9,
+      "charger_kw": 30,
+      "departure_slot": 15
+    }
+  ]
+}
